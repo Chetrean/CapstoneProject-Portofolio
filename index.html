@@ -49,37 +49,179 @@
     <section>
       <div class="nav-links">
         <ul>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="index.html">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#cv">Download CV</a></li>
         </ul>
       </div>
     </section>
-    <main style="display: none">
-      <section class="hero"></section>
-      <section class="portofolio"></section>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="card1">
+            <h2>Hi , I am</h2>
+            <h1>Chetrean Andrew ,</h1>
+            <h3>Full Stack - Web Developer</h3>
+          </div>
+          <div class="card2">
+            <div class="title">
+              <img src="./assets/Bookmark.png" alt="" />
+              <h1>Skills</h1>
+            </div>
+            <div class="card-content">
+              <h2>Frontend Development</h2>
+              <ul>
+                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                <li>React.js, Bootstrap</li>
+                <li>Responsive Design, UI/UX Principles</li>
+              </ul>
+              <h2>Backend Development</h2>
+              <ul>
+                <li>Node.js, Express.js</li>
+                <li>RESTful APIs, Authentication (JWT, OAuth)</li>
+              </ul>
+              <h2>Databases</h2>
+              <ul>
+                <li>MongoDB, Mongoose</li>
+                <li>MySQL, PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card3"></div>
+          <div class="card4">
+            <div class="title">
+              <img src="./assets/Bookmark.png" alt="" />
+              <h1>Education</h1>
+            </div>
+            <p>Hight School - (Real Profile) 2019 - 2021</p>
+            <h2>Liceul Teoretic „Boris Danga”</h2>
+            <p>
+              University - (Bachelor's Degree in Computer Science) 2021 - 2024
+            </p>
+            <h2>Universitatea „Ovidius” din Constanța</h2>
+          </div>
+          <div class="card5">
+            <div class="title">
+              <img src="./assets/Bookmark.png" alt="" />
+              <h1>Soft Skills</h1>
+            </div>
+
+            <h2>Problem-solving, Team Collaboration, Agile Workflow</h2>
+
+            <h2>Code Documentation, Debugging, Time Management</h2>
+          </div>
+          <div class="button">
+            <a href="#projects">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="black"
+                stroke-width="1"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 5l0 14" />
+                <path d="M18 13l-6 6" />
+                <path d="M6 13l6 6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="portofolio">
+        <div class="portofolio-title">
+          <h1>Projects</h1>
+          <h2>
+            Below are some of the projects I've built to apply and expand my
+            full-stack development skills. Each one showcases my ability to
+            design, develop, and deploy complete web applications from scratch.
+          </h2>
+        </div>
+        <div class="portofolio-container">
+          <div class="portofolio-card1">
+            <h1>TaskFlow – Task Management Web App</h1>
+            <h2>
+              A full-featured productivity app allowing users to create, assign,
+              and track tasks in real time. Includes user authentication,
+              role-based permissions, and drag-and-drop Kanban boards.
+            </h2>
+            <div class="demo">
+              <img src="./assets/GitHub.png" alt="" />Live Demo
+            </div>
+          </div>
+          <div class="portofolio-card2">
+            <h1>DevConnect – Social Platform for Developers</h1>
+            <h2>
+              A social networking app where developers can share projects,
+              connect with others, and comment on posts. Features include secure
+              login, responsive design, and RESTful API integration.
+            </h2>
+            <div class="demo">
+              <img src="./assets/GitHub.png" alt="" />Live Demo
+            </div>
+          </div>
+          <div class="portofolio-card3">
+            <h1>ShopSmart – E-commerce Platform</h1>
+            <h2>
+              An online store with product listings, cart system, user accounts,
+              and secure checkout using Stripe. Admin dashboard for managing
+              products and orders.
+            </h2>
+            <div class="demo">
+              <img src="./assets/GitHub.png" alt="" />Live Demo
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <h1>Let’s work Tohether?</h1>
+      <div class="footer">
+        <div class="contact-info">
+          <p>Tel : + 40 740 906 279</p>
+          <p>Email : ensteind8@gmail.com</p>
+        </div>
+        <div class="social-media">
+          <a href="https://github.com/Chetrean">
+            <img src="./assets/GitHub2.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/gospodar.acasa/">
+            <img src="./assets/Instagram.png" alt="" />
+          </a>
+          <a href="https://www.linkedin.com/in/andre-chetrean-3b0b1a1b2/">
+            <img src="./assets/linkedin.png" alt="" />
+          </a>
+          <a href="https://t.me/Phenomenam">
+            <img src="./assets/Telegram.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </footer>
 
     <script>
-      const menuButton = document.querySelector('.menu');
-      const navLinks = document.querySelector('.nav-links');
-      const main = document.querySelector('main');
-      const footer = document.querySelector('footer');
-    
-      menuButton.addEventListener('click', () => {
-        const isOpened = menuButton.classList.contains('opened');
-    
+      const menuButton = document.querySelector(".menu");
+      const navLinks = document.querySelector(".nav-links");
+      const main = document.querySelector("main");
+      const footer = document.querySelector("footer");
+
+      menuButton.addEventListener("click", () => {
+        const isOpened = menuButton.classList.contains("opened");
+
         if (isOpened) {
           // Show nav links with animation
-          navLinks.classList.add('active');
-          main.style.display = 'none';
-          footer.style.display = 'none';
+          navLinks.classList.add("active");
+          main.style.display = "none";
+          footer.style.display = "none";
         } else {
           // Hide nav links and show main/footers again
-          navLinks.classList.remove('active');
-          main.style.display = '';
-          footer.style.display = '';
+          navLinks.classList.remove("active");
+          main.style.display = "";
+          footer.style.display = "";
         }
       });
     </script>
